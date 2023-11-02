@@ -6,7 +6,7 @@ const news = require('./data/allNews.json');
 
 const app = express();
 
-// midleware
+
 app.use(cors());
 app.use(express.json());
 
